@@ -17,17 +17,17 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         //Encapsulation
-        val atil = Sanatci("Caner",80,"Gitar")
-        println(atil.isim)
-        atil.isim = "Caner Kapısız"
-        println(atil.isim)
+        val caner = Sanatci("Caner",80,"Gitar")
+        println(caner.isim)
+        caner.isim = "Caner Kapısız"
+        println(caner.isim)
 
-        atil.turuYazdir()
+        caner.turuYazdir()
 
-        atil.setSacRengiParolali("kahverengi","caner")
+        caner.setSacRengiParolali("kahverengi","caner")
 
 
-        atil.sarkiSoyle()
+        caner.sarkiSoyle()
         println(atil.gozRengi)
 
         val zeynep = Sanatci("Zeynep",20,"Bateri")

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
 
         caner.sarkiSoyle()
-        println(atil.gozRengi)
+        println(caner.gozRengi)
 
         val zeynep = Sanatci("Zeynep",20,"Bateri")
         zeynep.sarkiSoyle()
